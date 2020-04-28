@@ -1,0 +1,4 @@
+<p *ngFor="let post of content">
+  {{post.postsdescription}}
+</p>
+<button *ngFor="let pagenum of [1,2,3,4]" (click)="changePage(pagenum)">{{pagenum}}</button>
